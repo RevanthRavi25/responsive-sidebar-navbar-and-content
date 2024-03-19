@@ -134,13 +134,25 @@ a{
   padding: .75rem 2.25rem;
 }
 .collapse__sublink{
-  color: var(--sub-color);
-  font-size: var(--small-font-size);
-  display: inline-flex;
-  gap: 10px;
+    color: var(--sub-color);
+    font-size: var(--small-font-size);
+    display: inline-flex;
+    gap: 10px;
+    width: 136px;
+    height: 32px;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 6px 5px 0px 5px;
 }
+
+
 .collapse__sublink:hover{
   color: var(--white-color);
+  background: black;
+}
+.collapse__sublink_active{
+  color: var(--white-color);
+  background: black;
 }
 
 /*Show collapse*/
