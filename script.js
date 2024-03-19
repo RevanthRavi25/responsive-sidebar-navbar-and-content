@@ -21,13 +21,13 @@ function colorLink() {
     linkColor.forEach(l => l.classList.remove('active'))
     this.classList.add('active')
 }
-const linkColor1 = document.querySelectorAll('.collapse__sublink')
+const sub_linkColor = document.querySelectorAll('.collapse__sublink')
 function sub_colorLink() {
-    linkColor1.forEach(l => l.classList.remove('collapse__sublink_active'))
+    sub_linkColor.forEach(l => l.classList.remove('collapse__sublink_active'))
     this.classList.add('collapse__sublink_active')
 }
 linkColor.forEach(l => l.addEventListener('click', colorLink))
-linkColor1.forEach(l => l.addEventListener('click', sub_colorLink))
+sub_linkColor.forEach(l => l.addEventListener('click', sub_colorLink))
 
 
 /*===== COLLAPSE MENU  =====*/
